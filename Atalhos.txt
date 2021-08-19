@@ -1,0 +1,20 @@
+[core]
+	editor = code --wait
+[user]
+	email = dideconto@gmail.com
+	name = Diogo Deconto
+[alias]
+  s = !clear & git status -s
+	c = !clear & git add . & git commit -m
+	l = !clear & git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(yellow)%cr'
+	amend = !clear & git add . && git commit --amend --no-edit[core]
+	editor = code --wait
+[user]
+	email = dideconto@gmail.com
+	name = Diogo Deconto
+[alias]
+    s = !clear & git status -s
+	c = !clear & git add . & git commit -m
+	l = !clear & git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(yellow)%cr'
+    faz a junção da alteração atual no ultimo commit
+	amend = !clear & git add . && git commit --amend --no-edit
