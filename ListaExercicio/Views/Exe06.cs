@@ -4,24 +4,25 @@ namespace ListaExercicio.Views
 {
     public class Exe06
     {
+        const int VALOR_MAXIMO = 1001;
+        const int TAMANHO_VETOR = 100;
         public static void Renderizar()
         {
-            const int VALOR_MAXIMO = 1001;
-            const int TAMANHO_VETOR = 100;
             Random random = new Random();
             int[] numeros = new int[TAMANHO_VETOR];
 
-            //Populando o vetor com números aleatórios
+            //Popular o vetor com valores aleatórios
             for (int i = 0; i < TAMANHO_VETOR; i++)
             {
                 numeros[i] = random.Next(VALOR_MAXIMO);
             }
-            //Imprimir vetor não ordenado
+
+            //Imprimir o vetor sem ordenação
             foreach (int numero in numeros)
             {
                 Console.Write($"{ numero } ");
             }
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
 
             //Ordenar o vetor automaticamente
             //Array.Sort(numeros);
@@ -43,7 +44,7 @@ namespace ListaExercicio.Views
                 }
             } while (troca);
 
-            //Imprimir vetor ordenado
+            //Imprimir o vetor ordenado
             foreach (int numero in numeros)
             {
                 Console.Write($"{ numero } ");

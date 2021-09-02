@@ -1,8 +1,6 @@
-# Projetos desenvolvidos durante a aula de Orientação a Objetos(Desenvolvimento de software Visual) - Quarta.
+# Projetos desenvolvidos na disciplina de Desenvolvimento de Software Visual - Quarta-feira - Noite
 
-Repositório geral da aula de Orientação a objetos.
-Onde guardarei todos o projetos desenvolvidos durante a aula.
+Todos os elementos abaixo irão descrever os passos para a utilização do projeto da API (C#) e do FRONT (Angular). Os demais projetos, são projetos em console, que foram utlizados apenas na ambientação da disciplina.
 
-## Autor
-
-[Victor Perez Da Silva](https://www.facebook.com/VPerezx/)
+# Autor
+[Diogo Steinke Deconto](https://www.linkedin.com/in/diogodeconto)
