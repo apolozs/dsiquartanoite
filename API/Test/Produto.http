@@ -11,7 +11,7 @@ Content-Type: application/json
 GET   https://localhost:5001/api/produto/list
 
 ###
-GET  https://localhost:5001/api/produto/getid/3
+GET  https://localhost:5001/api/produto/getid/1
 
 ###
 DELETE   https://localhost:5001/api/produto/delete/Batatinha

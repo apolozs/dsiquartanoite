@@ -1,0 +1,19 @@
+###
+POST  https://localhost:5001/api/categoria/create
+Content-Type: application/json
+
+{
+    "Nome" : "Batatinha",
+    "CriadoEm": "2001-02-02"
+
+}
+
+###
+GET  https://localhost:5001/api/categoria/list
+
+###
+GET  https://localhost:5001/api/categoria/getbyid/2
+
+###
+DELETE   https://localhost:5001/api/categoria/delete/Batatinha
+
